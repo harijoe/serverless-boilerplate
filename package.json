@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@harijoe/handly": "0.0.2",
+    "middy": "^0.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "husky": "^1.1.4",
+    "lint-staged": "^8.0.5",
+    "prettier": "^1.15.2",
+    "serverless": "^1.33.1",
+    "serverless-dynamodb-client": "0.0.2",
+    "serverless-dynamodb-local": "^0.2.35",
+    "serverless-offline": "^3.31.3",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.26.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "start": "serverless offline start",
+    "deploy:staging": "sls deploy -s staging",
+    "deploy:prod": "sls deploy -s prod",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
