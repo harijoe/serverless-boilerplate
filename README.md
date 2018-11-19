@@ -14,6 +14,9 @@ cd <your-service-name>
 
 # Install dependencies
 npm i
+
+# Install dynamoDB libs
+sls dynamodb install
 ```
 
 ## How to use it ?
