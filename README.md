@@ -6,6 +6,9 @@ The easier serverless boilerplate to get started with
 # If you don't already have the serverless cli installed, do that
 npm i -g serverless
 
+# If it's the first time you use aws, you need to configure credentials
+# https://github.com/serverless/serverless/blob/master/docs/providers/aws/guide/credentials.md
+
 # Use the serverless cli to install this repo
 serverless install --url https://github.com/harijoe/serverless-boilerplate --name <your-service-name>
 
