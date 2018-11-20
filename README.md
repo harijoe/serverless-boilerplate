@@ -41,6 +41,7 @@ Current available environments are `staging` and `production` but you can config
  * DynamoDB
  * Middlewares
  * Prettier
+ * Module by absolute path resolution
 
 ### Environments
 Environments and environment variables can be configured in `env.yml`. `dev` is the one used by default. 
