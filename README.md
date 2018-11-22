@@ -2,9 +2,9 @@
 The easiest serverless boilerplate to get started with
 
 ## Motivation
-Serverless is awesome : no more server to setup, ultra scalable and very cheap. But I found not very easy to find the perfect setup to get started quicky. There are a lot of not well documented pitfalls that drain considerable of time and energy.
+Serverless is awesome : no more server to setup, ultra scalable and very cheap. But I found not very easy to find the perfect setup to get started with. Using serverless brings a lot of not well documented pitfalls that drain considerable of time and energy.
 
-I made this boilerplate after gathering the solutions to all these common pitfalls to keep them out of the way.
+I made this boilerplate after gathering the solutions to all these common pitfalls. The goal is to keep them out of the way.
 
 ## Installation
 ```
