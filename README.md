@@ -73,3 +73,6 @@ Support for DynamoDB both locally and in the cloud. It's a quite easy to use nos
 
 ### Middlewares
 [Handly](https://github.com/harijoe/handly) is included. It's a handy wrapper for serverless handlers applying very useful middlewares. 
+
+# License
+Serverless Boilerplate is [MIT licensed](https://opensource.org/licenses/MIT).
