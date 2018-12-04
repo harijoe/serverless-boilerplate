@@ -1,5 +1,5 @@
-# Serverless Boilerplate
-The easiest serverless boilerplate to get started with
+# Serverless Boilerplate ⚡️
+The easiest serverless boilerplate to get started with 👌
 
 _by [@JulienVallini](https://twitter.com/julienvallini)_
 
